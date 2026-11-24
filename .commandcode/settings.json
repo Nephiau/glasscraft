@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(npm:*)",
+      "Shell(agent-browser:*)",
+      "Shell(curl -s -o nul -w \"%{http_code}\" http://localhost:5173/)",
+      "Shell(netstat:*)",
+      "Shell(findstr:*)",
+      "Shell(node \"C:\\Users\\raiha\\AppData\\Roaming\\npm\\node_modules\\command-code\\dist\\bundled\\design\\scripts\\check.mjs\" \"D:\\CODE\\Projects\\GlassCraft\")",
+      "Shell(curl -s http://localhost:5180/src/index.css)",
+      "Shell(Select-Object:*)",
+      "powershell",
+      "Shell(node \"C:\\Users\\raiha\\AppData\\Local\\Temp\\commandcode\\D--CODE-Projects-GlassCraft\\44ca60d5-aa96-4217-a930-4ca04b59d1d8\\scratchpad\\oklch.mjs\")",
+      "Shell(rmdir:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
